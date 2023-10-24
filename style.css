@@ -1,0 +1,32 @@
+/* CSS for navigation bar */
+ul.navbar {
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+}
+li.nav-item {
+    float: left;
+}
+a.nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a.nav-link:hover {
+    background-color: #555;
+}
+
+/* CSS for body */
+.content {
+    padding: 20px;
+}
+
+/* CSS for footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
